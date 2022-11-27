@@ -1,6 +1,12 @@
 extend ./componentes/plantilla.pug 
-block contenidos
+block contenidos        
         section.intro
+            .menu__left
+                h2 Menu 
+                    ul 
+                        li= enlaces[0]
+                        li= enlaces[1]
+                        li= enlaces[2]
             .intro__imagen
                 img(src="./images/imagen.png", alt="alt")
             .intro__contenido
